@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Li Ying 🦋</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .fade-in {
+        animation: fadeIn 1.2s ease-in-out;
+      }
+
+      @keyframes fadeIn {
+        0% { opacity: 0; transform: translateY(10px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+
+      .glow {
+        text-shadow: 0 0 8px rgba(255, 192, 203, 0.5), 0 0 12px rgba(64, 224, 208, 0.5);
+        animation: pulseGlow 2s infinite ease-in-out;
+      }
+
+      @keyframes pulseGlow {
+        0%, 100% {
+          text-shadow: 0 0 8px rgba(255, 192, 203, 0.5), 0 0 12px rgba(64, 224, 208, 0.5);
+        }
+        50% {
+          text-shadow: 0 0 16px rgba(255, 192, 203, 0.7), 0 0 20px rgba(64, 224, 208, 0.7);
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gradient-to-br from-pink-100 to-teal-100 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white shadow-2xl rounded-3xl px-6 py-8 w-full max-w-md text-center space-y-6 fade-in">
+      <div class="text-4xl sm:text-5xl glow">🦋</div>
+      <h1 class="text-2xl sm:text-3xl font-bold text-gray-800">For Li Ying</h1>
+      <p class="text-sm sm:text-base leading-relaxed text-gray-700">
+        I don't usually say stuff like this, but I wanted to communicate this to you.<br><br>
+        I've really been enjoying our time together, the random updates, hiking and cycling together, even your dramatic plushie missions.<br><br>
+        Thanks again for planning my birthday celebration at Nong Geng Ji. Loved the food (although the stir-fried beef was too spicy 😅).<br>
+        And the cat café after even though you're not good with cats and dogs, it was really sweet of you.<br><br>
+        Your gaming skills were surprisingly on point in <em>It Takes Two</em>. I loved that you played with me even though you're not a gamer.<br>
+        Rematch soon? I think we make a good team 😏
+      </p>
+      <p class="italic text-gray-500 text-sm sm:text-base">- Alex (your coach, portable charger and walking stick)</p>
+    </div>
+  </body>
+</html>
